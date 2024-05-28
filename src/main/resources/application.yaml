@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: chat_api_v2
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: chatdb
+
+server:
+  port: 8082
+
+
+jwt:
+  password:
+    encoder:
+      secret: SsqL/RDeYJvlfsv6wTMO9B59IEAmhubTSHmsrMXRksQ=
+      iteration: 64
+      keylength: 256
+  secret: TAYbggXhCWg4pNd5nKQqPYHfXTvldhQ9A+ztLhcbFrq3KQirEwlbVIk9MGV+C8PsS+sh1ErPsrtnvdJTAovIJQ==
